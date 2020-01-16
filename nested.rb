@@ -1,4 +1,6 @@
 
+# expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
+
 def hopper
 	programmer_hash = 
  		{
@@ -15,7 +17,8 @@ def hopper
           :languages => ["C"]
         }
      }
-
+  
+  programmer_hash
 
 end
 
